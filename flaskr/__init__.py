@@ -8,6 +8,6 @@ def create_app(test_config=None):
 
     @app.route('/smile')
     def smile():
-        return ";)"
+        return "hello ;)"
     return app
     
